@@ -17,8 +17,7 @@ header {
     padding-left: 25px; }
 
 footer {
-  color: #080807;
-  font-size: 10px;
+  background-color: #90724a;
   grid-area: footer; }
 
 /* PC */

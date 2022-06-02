@@ -1,3 +1,5 @@
+$estilo:(color:rgb(144, 114, 74),tamBorde:2px);
+
 footer {
     background-color: map-get($estilo,color);
     font-size: map-get($estilo,tamFuente);

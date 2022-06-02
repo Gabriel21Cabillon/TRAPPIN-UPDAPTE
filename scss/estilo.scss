@@ -38,8 +38,8 @@
   .formularioInterno {
     background-color: rgb(232, 205, 170);
     border: none;
-    border-width: map-get($estilo,tamBorde);
-    border-color: map-get($estilo,color);
+    border-width: 2px;
+    border-color: rgb(144, 114, 74);
     border-radius: 10px;
     padding: 10px 20px 20px 20px;
   }
