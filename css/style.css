@@ -1,3 +1,34 @@
+.estiloContenedor, .contenedor, .contenedor2, .contenedor3 {
+  background-color: skyblue;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  color: #080807;
+  width: 20%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.49);
+  box-shadow: 5px 10px 17px -1px rgba(0, 0, 0, 0.49); }
+
+.flexProductos1, .flexCarteras, .flexVestidos, .flexCamisas {
+  padding: 320px 20px 20px 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.flexProductos2, .flexAros, .flexReloj, .flexFaldas, .flexBikinis, .flexSudaderas, .flexJean {
+  padding: 140px 20px 20px 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.imgEstilo, .productoIzquierda img, .productoCentro img, .productoDerecha img {
+  width: 60%;
+  box-shadow: 10px 10px 21px -5px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 10px 21px -5px rgba(0, 0, 0, 0.52);
+  box-shadow: 10px 10px 21px -5px rgba(0, 0, 0, 0.52); }
+
 header {
   color: white;
   background-color: #e4ae67;
@@ -16,8 +47,39 @@ header {
   header h2 {
     padding-left: 25px; }
 
+.estiloContenedor, .contenedor, .contenedor2, .contenedor3 {
+  background-color: skyblue;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  color: #080807;
+  width: 20%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.49);
+  box-shadow: 5px 10px 17px -1px rgba(0, 0, 0, 0.49); }
+
+.flexProductos1, .flexCarteras, .flexVestidos, .flexCamisas {
+  padding: 320px 20px 20px 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.flexProductos2, .flexAros, .flexReloj, .flexFaldas, .flexBikinis, .flexSudaderas, .flexJean {
+  padding: 140px 20px 20px 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.imgEstilo, .productoIzquierda img, .productoCentro img, .productoDerecha img {
+  width: 60%;
+  box-shadow: 10px 10px 21px -5px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 10px 21px -5px rgba(0, 0, 0, 0.52);
+  box-shadow: 10px 10px 21px -5px rgba(0, 0, 0, 0.52); }
+
 footer {
-  background-color: #90724a;
+  background-color: #9e6d2d;
   grid-area: footer; }
 
 /* PC */

@@ -1,4 +1,6 @@
-$estilo:(color:rgb(144, 114, 74),tamBorde:2px);
+@import "extend";
+@import "mixin";
+@import "maps";
 
 footer {
     background-color: map-get($estilo,color);
