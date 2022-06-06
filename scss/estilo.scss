@@ -1,9 +1,9 @@
 @import "header";
-@import "footer";
-@import "media";
 @import "extend";
 @import "mixin";
 @import "maps";
+@import "media";
+@import "footer";
 
 * {
     margin: 0;
@@ -187,3 +187,66 @@
       grid-area: derecha;
     }
   }
+
+/* PC */
+@media (max-width:1455px) {
+  .contenedor {
+      width: 40%;
+      margin-left: 190px;
+      margin-right: auto;
+  }
+  .contenedor2 {
+      width: 40%;
+      margin-top: 2150px;
+      margin-left: 190px;
+      margin-right: auto;
+  }
+  .contenedor3 {
+      width: 40%;
+      margin-top: 4100px;
+      margin-left: 190px;
+      margin-right: auto;
+  }
+}
+
+/* IPAD */
+@media (max-width:768px) {
+  .contenedor {
+      width: 40%;
+      margin-left: 190px;
+      /* margin-right: auto; */
+  }
+  .contenedor2 {
+      width: 40%;
+      margin-top: 265%;
+      margin-left: 190px;
+      /* margin-right: auto; */
+  }
+  .contenedor3 {
+      width: 40%;
+      margin-top: 500%;
+      margin-left: 190px;
+      /* margin-right: auto; */
+  }
+}
+
+/* IPHONE */
+@media (max-width:500px) {
+  .contenedor {
+      width: 40%;
+      margin-left: 190px;
+      margin-right: auto;
+  }
+  .contenedor2 {
+      width: 40%;
+      margin-top: 265%;
+      margin-left: 190px;
+      /* margin-right: auto; */
+  }
+  .contenedor3 {
+      width: 40%;
+      margin-top: 480%;
+      margin-left: 190px;
+      /* margin-right: auto; */
+  }
+}
